@@ -1,0 +1,1058 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1B3F6026B8254630A143A6FB /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 541DFC17880C4007A998A9F1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0C58D2AA70EB403E8407BA04 /* CMake Rules */,
+			);
+			dependencies = (
+				3464B33EF61A4AB69E02CF06 /* PBXTargetDependency */,
+				E2EA725D5BA2497E9A334397 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		7927B3F7BA7448B48F3A7E50 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 80DE952DA2544C588865CCDE /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				AFAA5CC4DAAE402EB50D52BE /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				8EC57220C73D4D83832B1D9C /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		CF298A1C56DD4B8CA4BD4B8E /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A0BEFB4BBE094E479ACF46A9 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				5725C5551D8D44FAA4FCE73F /* CMake Rules */,
+			);
+			dependencies = (
+				C811DD6050494698894CCE04 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		D1ED6CCC61184398A176B410 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9E00CA1EC97A42EB8BC6598A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				19C97597871344538C71B7AE /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0FCD79A6343B47EC8EAF6F91 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 3BDB8B36EE4B49DEAD92A5D0 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/init.c */; };
+		1F5A699DF2BC4607B51DB034 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 9BA479B06D8C490EBAD4CD28 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/input.c */; };
+		20AD0039C84441C6BB342530 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = F45FD54084D74494ADD9691F /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/posix_tls.h */; };
+		2131DC1E95C54393BB422F5D /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/iokit_joystick.m */ = {isa = PBXBuildFile; fileRef = 4459EC2B595F4764BA77464F /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/iokit_joystick.m */; };
+		2647CE2CEE404EAF9EFE9806 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 8C429AE42E5E445A914824B3 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src/glfw_config.h */; };
+		2746950376C8450B95B71600 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = F4D014FB337E4A90842D0D5B /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_platform.h */; };
+		2BE9F84F72004E38958552C1 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 4C7F81317CBD41B9871D764E /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/internal.h */; };
+		42111271E6264B4E843AD1CC /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 555C8C5E31BA4CA1B6E31673 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_init.m */; };
+		43A152B54C714E90A0E7D748 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A672DBD81ECD499E98D35643 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/CMakeLists.txt */; };
+		5BFDAEAB12A1495E942A1F1D /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/mach_time.c */ = {isa = PBXBuildFile; fileRef = A6775ACE220647F494392E25 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/mach_time.c */; };
+		684D254432F24460923240F5 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = B4478548328A4DC4AB1380FC /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_monitor.m */; };
+		8363E50DF654456FAF751D2F /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 826876B19DCB4F71A0823572 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/nsgl_context.m */; };
+		A11261E376894BF09B094630 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/iokit_joystick.h */ = {isa = PBXBuildFile; fileRef = C627046EB2944AC3AE462DE0 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/iokit_joystick.h */; };
+		A97EECB60F884C11B013A061 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = AE07AF9AF06041549664540B /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/context.c */; };
+		B10FB617FBF74CBAB8DBD2C5 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 3D3E6A529BC046259DA36D54 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_window.m */; };
+		C0CADBC69E6A418BA2F84D92 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 6C71648E506E4E50AFCDD4B9 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/window.c */; };
+		C63226E30DEF4CECAD190BC8 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = BCAB330C777941959F793E8F /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/nsgl_context.h */; };
+		CB0C82D9F118427DBCBC5A3C /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 7EB608257C044CF598BC4DA4 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/posix_tls.c */; };
+		D9C21229D15C48659B9522C1 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 6C84FB9921DB4A78A8EE5E54 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include/GLFW/glfw3native.h */; };
+		DC106587C1874A918B5C7D4A /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 588F98BB2AF54DF9A141F296 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/monitor.c */; };
+		F684AC87C1F0472EBE8C827F /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 40B9BF3A0C1849638645E649 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include/GLFW/glfw3.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1E06C8E400B2484BBF271309 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		413021AADC1442429B26E154 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		79C79696C4EA49DE8D7CDB69 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E2ED896061524A7C92A08E33 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		38A39B6DA4464FE498C5C894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E965C628272345B1B9339C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1ED6CCC61184398A176B410;
+			remoteInfo = ZERO_CHECK;
+		};
+		6141E429A48F4F36B26E4CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E965C628272345B1B9339C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1ED6CCC61184398A176B410;
+			remoteInfo = ZERO_CHECK;
+		};
+		64363BBB06BD479CB1D3105A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E965C628272345B1B9339C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67E6ECFB29BC4C30B8E4926D;
+			remoteInfo = glfw;
+		};
+		DDBB8E2C848045EEB63F2AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E965C628272345B1B9339C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B3F6026B8254630A143A6FB;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BDB8B36EE4B49DEAD92A5D0 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		3D3E6A529BC046259DA36D54 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		40B9BF3A0C1849638645E649 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		4459EC2B595F4764BA77464F /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/iokit_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = iokit_joystick.m; path = src/iokit_joystick.m; sourceTree = SOURCE_ROOT; };
+		4C7F81317CBD41B9871D764E /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		555C8C5E31BA4CA1B6E31673 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		588F98BB2AF54DF9A141F296 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		6636CFE113B144B4B6C34A2A /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6C71648E506E4E50AFCDD4B9 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		6C84FB9921DB4A78A8EE5E54 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		7EB608257C044CF598BC4DA4 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = src/posix_tls.c; sourceTree = SOURCE_ROOT; };
+		826876B19DCB4F71A0823572 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		8C429AE42E5E445A914824B3 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = ../../xcodeProj/lib/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		9BA479B06D8C490EBAD4CD28 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		A1A5D540ABA4451AA0741208 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A672DBD81ECD499E98D35643 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A6775ACE220647F494392E25 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/mach_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mach_time.c; path = src/mach_time.c; sourceTree = SOURCE_ROOT; };
+		A819B93E9269474F87E9D875 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE07AF9AF06041549664540B /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		B4478548328A4DC4AB1380FC /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		BCAB330C777941959F793E8F /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		C627046EB2944AC3AE462DE0 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/iokit_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iokit_joystick.h; path = src/iokit_joystick.h; sourceTree = SOURCE_ROOT; };
+		F45FD54084D74494ADD9691F /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		F4D014FB337E4A90842D0D5B /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		F67B3E7F20C646E684256D68 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4DAE8262991145B5A49DD8BD /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				40B9BF3A0C1849638645E649 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include/GLFW/glfw3.h */,
+				6C84FB9921DB4A78A8EE5E54 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include/GLFW/glfw3native.h */,
+				F4D014FB337E4A90842D0D5B /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_platform.h */,
+				4C7F81317CBD41B9871D764E /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/internal.h */,
+				C627046EB2944AC3AE462DE0 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/iokit_joystick.h */,
+				BCAB330C777941959F793E8F /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/nsgl_context.h */,
+				F45FD54084D74494ADD9691F /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/posix_tls.h */,
+				8C429AE42E5E445A914824B3 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src/glfw_config.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		500199AB71DB48618F636567 = {
+			isa = PBXGroup;
+			children = (
+				A01520E013B1492DB89FE553 /* uninstall */,
+				60C18373A7D34DFC9BFC4A46 /* ALL_BUILD */,
+				FFE8C7781C88485CA79F78C8 /* ZERO_CHECK */,
+				BB21DD7151204B1FBE04845E /* GLFW3 */,
+				F13D25768B9D4E7DB1F4CBC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60C18373A7D34DFC9BFC4A46 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8CF715FE9CF647AC8819E5EA /* CMake Rules */,
+				A1A5D540ABA4451AA0741208 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		791ADE78918F49AAAB195EF5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				555C8C5E31BA4CA1B6E31673 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_init.m */,
+				B4478548328A4DC4AB1380FC /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_monitor.m */,
+				3D3E6A529BC046259DA36D54 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_window.m */,
+				AE07AF9AF06041549664540B /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/context.c */,
+				3BDB8B36EE4B49DEAD92A5D0 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/init.c */,
+				9BA479B06D8C490EBAD4CD28 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/input.c */,
+				4459EC2B595F4764BA77464F /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/iokit_joystick.m */,
+				A6775ACE220647F494392E25 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/mach_time.c */,
+				588F98BB2AF54DF9A141F296 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/monitor.c */,
+				826876B19DCB4F71A0823572 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/nsgl_context.m */,
+				7EB608257C044CF598BC4DA4 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/posix_tls.c */,
+				6C71648E506E4E50AFCDD4B9 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8CF715FE9CF647AC8819E5EA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A01520E013B1492DB89FE553 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				D0621614C7A241848D8EA83F /* CMake Rules */,
+				6636CFE113B144B4B6C34A2A /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		A6849D6AC1D143A5BAC51428 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				791ADE78918F49AAAB195EF5 /* Source Files */,
+				4DAE8262991145B5A49DD8BD /* Header Files */,
+				A672DBD81ECD499E98D35643 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		BB21DD7151204B1FBE04845E /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				A6849D6AC1D143A5BAC51428 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		D0621614C7A241848D8EA83F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D6585EB58E414C0ABB681AA3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F13D25768B9D4E7DB1F4CBC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A819B93E9269474F87E9D875 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE8C7781C88485CA79F78C8 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				D6585EB58E414C0ABB681AA3 /* CMake Rules */,
+				F67B3E7F20C646E684256D68 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67E6ECFB29BC4C30B8E4926D /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2471D2548BD0452B97604769 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				EF9DF1C7B8B1427F9C8F1F8D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = A819B93E9269474F87E9D875 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E965C628272345B1B9339C53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 9487E0A0CAFE45CA8F1114F0 /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E2ED896061524A7C92A08E33 /* Debug */,
+				79C79696C4EA49DE8D7CDB69 /* Release */,
+				413021AADC1442429B26E154 /* MinSizeRel */,
+				1E06C8E400B2484BBF271309 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 500199AB71DB48618F636567;
+			projectDirPath = ../../../lib/glfw;
+			projectRoot = "";
+			targets = (
+				1B3F6026B8254630A143A6FB /* ALL_BUILD */,
+				D1ED6CCC61184398A176B410 /* ZERO_CHECK */,
+				7927B3F7BA7448B48F3A7E50 /* install */,
+				CF298A1C56DD4B8CA4BD4B8E /* uninstall */,
+				67E6ECFB29BC4C30B8E4926D /* glfw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C58D2AA70EB403E8407BA04 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw -f /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		19C97597871344538C71B7AE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw -f /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4FF89CED95C54B61A4FE0A76 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5725C5551D8D44FAA4FCE73F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeFiles/uninstall"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw -f /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6DDD2444E5D24E2B925BA63F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		98C51AFBD9E3402AACF347C3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AFAA5CC4DAAE402EB50D52BE /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw -f /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D70636185ADC4D5C874CF68A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF9DF1C7B8B1427F9C8F1F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42111271E6264B4E843AD1CC /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_init.m */,
+				684D254432F24460923240F5 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_monitor.m */,
+				B10FB617FBF74CBAB8DBD2C5 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/cocoa_window.m */,
+				A97EECB60F884C11B013A061 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/context.c */,
+				0FCD79A6343B47EC8EAF6F91 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/init.c */,
+				1F5A699DF2BC4607B51DB034 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/input.c */,
+				2131DC1E95C54393BB422F5D /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/iokit_joystick.m */,
+				5BFDAEAB12A1495E942A1F1D /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/mach_time.c */,
+				DC106587C1874A918B5C7D4A /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/monitor.c */,
+				8363E50DF654456FAF751D2F /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/nsgl_context.m */,
+				CB0C82D9F118427DBCBC5A3C /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/posix_tls.c */,
+				C0CADBC69E6A418BA2F84D92 /* /Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3464B33EF61A4AB69E02CF06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67E6ECFB29BC4C30B8E4926D /* glfw */;
+			targetProxy = 64363BBB06BD479CB1D3105A /* PBXContainerItemProxy */;
+		};
+		8EC57220C73D4D83832B1D9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B3F6026B8254630A143A6FB /* ALL_BUILD */;
+			targetProxy = DDBB8E2C848045EEB63F2AEB /* PBXContainerItemProxy */;
+		};
+		C811DD6050494698894CCE04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1ED6CCC61184398A176B410 /* ZERO_CHECK */;
+			targetProxy = 6141E429A48F4F36B26E4CE7 /* PBXContainerItemProxy */;
+		};
+		E2EA725D5BA2497E9A334397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1ED6CCC61184398A176B410 /* ZERO_CHECK */;
+			targetProxy = 38A39B6DA4464FE498C5C894 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04F0050E7D5142498612F416 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0952A12F10D9492289857E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/build";
+			};
+			name = Release;
+		};
+		2025C1DAC8814AAB953778E9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		27E4AC735AD44A32B95CD5F1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		318A7D0423F6440D89FA60AB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		338C678501CC4E4DAF3B5229 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		353AF1539E3D4F9CA1A54D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3541024F33454CB584730581 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3CFA53E2153A4C26A07CEF57 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3DD45C1922A34B5991813A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/build";
+			};
+			name = Debug;
+		};
+		457AE2ECD2924ED79A4E8AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		5F60B7D869434AF4AE98F6D7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		833EA1C0546F4E65852112CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		86E80F33BA4141B2896D98AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		872925972A5E4983978F38D5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		88433B4F63FA49C4BC29DAF4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/build";
+			};
+			name = MinSizeRel;
+		};
+		A9584045ACCA469EA4A8D7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AA4557F0392849019A311A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B046D4082D4747A798F4742F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BA68FD3C1F714A388F1CDCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/src","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3_d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		DE242E6FFFB14AF79CE3AF7A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw/build";
+			};
+			name = RelWithDebInfo;
+		};
+		ED7470E538904C3E82BDCA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EFFFB418F5954F1F95F4CD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F9A52714FCD040179BD16997 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/include","/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/lib/glfw/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yuelei/Desktop/openGitProj/opengl-9th-examples-master/xcodeProj/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2471D2548BD0452B97604769 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA68FD3C1F714A388F1CDCF7 /* Debug */,
+				AA4557F0392849019A311A0A /* Release */,
+				872925972A5E4983978F38D5 /* MinSizeRel */,
+				2025C1DAC8814AAB953778E9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		541DFC17880C4007A998A9F1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B046D4082D4747A798F4742F /* Debug */,
+				EFFFB418F5954F1F95F4CD6F /* Release */,
+				5F60B7D869434AF4AE98F6D7 /* MinSizeRel */,
+				F9A52714FCD040179BD16997 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80DE952DA2544C588865CCDE /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9584045ACCA469EA4A8D7FB /* Debug */,
+				86E80F33BA4141B2896D98AD /* Release */,
+				27E4AC735AD44A32B95CD5F1 /* MinSizeRel */,
+				318A7D0423F6440D89FA60AB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9487E0A0CAFE45CA8F1114F0 /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD45C1922A34B5991813A8A /* Debug */,
+				0952A12F10D9492289857E2D /* Release */,
+				88433B4F63FA49C4BC29DAF4 /* MinSizeRel */,
+				DE242E6FFFB14AF79CE3AF7A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E00CA1EC97A42EB8BC6598A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353AF1539E3D4F9CA1A54D59 /* Debug */,
+				833EA1C0546F4E65852112CF /* Release */,
+				3CFA53E2153A4C26A07CEF57 /* MinSizeRel */,
+				3541024F33454CB584730581 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0BEFB4BBE094E479ACF46A9 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7470E538904C3E82BDCA94 /* Debug */,
+				457AE2ECD2924ED79A4E8AC7 /* Release */,
+				338C678501CC4E4DAF3B5229 /* MinSizeRel */,
+				04F0050E7D5142498612F416 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E965C628272345B1B9339C53 /* Project object */;
+}
