@@ -35,3 +35,21 @@ OpenGL 4.5 support will fail. For example, if a platform were limited to, say Op
 then the samples wouldn't work on that platform. Please don't file bugs about that either.
 Error checking in these applications is minimal. If you don't have media files or if
 your OpenGL drivers are out of date, they'll probably fail spectacularly.
+
+
+Additional
+--------
+Xcode project is already in xcodeProj directory. if you want create you own project file do as following:
+1. mkdir yourDir
+2. cd yourDir
+3. cmake -G Xcode ..
+your xcode project will be created in yourDir
+
+Some files have been modified for MAC os environment, especially some header file. If you are interested in the modification adapted for Xcode, you can compare codes here with the original @ https://github.com/openglredbook/examples.git
+
+Because my MAC only support  OpenGL 4.1, but source @ https://github.com/openglredbook/examples.git is based on OpenGL 4.5, some API may crash or error. I have changed some  API call from version 4.5 to 4.1 so that my MAC can run the demo, but not all demo is adapted for API 4.1.
+
+
+
+
+
