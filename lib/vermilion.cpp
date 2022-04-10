@@ -69,10 +69,12 @@ void VermilionApplication::Initialize(const char * title)
 
     glfwMakeContextCurrent(m_pWindow);
 
+
     gl3wInit();
      
-
-    Resize(800, 600);
+    int fb_width,fb_height;
+    glfwGetFramebufferSize(m_pWindow, &fb_width, &fb_height);
+    Resize(fb_width, fb_height);
 
 #ifdef _DEBUG
     if (glDebugMessageCallbackARB != NULL)
