@@ -3,6 +3,11 @@
 #include <time.h>
 #include <string>
 #include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/time.h>
+#include <unistd.h>
+
 void VermilionApplication::window_size_callback(GLFWwindow* window, int width, int height)
 {
     VermilionApplication* pThis = (VermilionApplication*)glfwGetWindowUserPointer(window);
@@ -31,7 +36,9 @@ unsigned int VermilionApplication::app_time()
 
     return (unsigned int)(currentTime - m_appStartTime);
 #else
-    return 0;
+    struct timeval time;
+    gettimeofday(&time, NULL);
+    return (time.tv_sec*1000 + time.tv_usec/1000) - ((m_appStartTime.tv_sec*1000 + m_appStartTime.tv_usec/1000));
 #endif
 }
 
