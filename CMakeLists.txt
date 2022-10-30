@@ -49,6 +49,7 @@ add_library(vermilion
             lib/loadtexture.cpp
             lib/vermilion.cpp
             lib/vbm.cpp
+            lib/imageLoader.cpp
 )
 
 set(RUN_DIR ${PROJECT_SOURCE_DIR}/bin)
@@ -109,6 +110,7 @@ ENDIF (${CMAKE_SYSTEM_NAME} MATCHES "Linux")
 
 include_directories( include )
 include_directories(lib/glfw/include)
+include_directories(lib)
 
 add_subdirectory(lib/glfw)
 
